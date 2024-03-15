@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-size: 16px; /* Tamanho da fonte padrão */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#foto_perfil {
+    border-radius: 50%;
+}
+
+#dados {
+    margin-top: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#locais {
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px; /* Aumento do tamanho dos botões */
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+h1, h2 {
+    font-size: 24px; /* Tamanho maior para títulos */
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Estilos para a seção de informações de contato */
+#info-contatos {
+    margin-top: 20px;
+}
+
+#info-contatos h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#info-contatos nav {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Divide em duas colunas */
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+/* Estilos para os botões no rodapé */
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Divide em duas colunas */
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+footer nav ul li {
+    text-align: center; /* Centraliza o texto */
+}
+
+footer nav ul li a {
+    display: block; /* Transforma o link em bloco */
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer nav ul li a:hover {
+    background-color: #555;
+    display: block; /* Transforma o link em bloco */
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer div nav ol {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+footer div nav ol li a {
+    display: block; /* Transforma o link em bloco */
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer div nav ol li a:hover {
+    background-color: #555;
+    display: block; /* Transforma o link em bloco */
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
